@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b9a2cd;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-top: 20px;
+  }
+  
+  input[type="number"] {
+    width: 50px;
+    text-align: center;
+    margin-right: 15px;
+  }
+  
+  button {
+    background-color: #22a527;
+    color: rgb(222, 219, 219);
+    border: none;
+    padding: 10px;
+    border-radius: 400px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  button:hover {
+    background-color: #0fe717;
+  }
+  
+  #timer-display {
+    font-size: 55px;
+    font-weight: bold;
+    margin-top: 107px;
+  }
+  
+  #stopwatch-display {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 50px;
+  }
+  
+  .timer-buttons,
+  .stopwatch-buttons {
+    margin-top: 200px;
+  }
+  
+  .timer-buttons button,
+  .stopwatch-buttons button {
+    font-size: 16px;
+    padding: 6px 16px;
+  }
+  
+  #timer {
+    margin-top: 50px;
+  }
+  
+  #stopwatch {
+    margin-top: 75px;
+  }
